@@ -1,0 +1,15 @@
+{
+  "schema_version": "1",
+  "name": "aura-brand-skills",
+  "display_name": "Aura Brand Intelligence",
+  "description": "Compounding brand memory + analytics skills for DTC brands. Read-first, write-back, quality gates.",
+  "author": "Sproutron AI",
+  "version": "1.0.0",
+  "skills": [
+    "SKILL.md",
+    "skills/brand-memory-lookup/SKILL.md",
+    "skills/learning-capture/SKILL.md",
+    "skills/conversation-logger/SKILL.md",
+    "skills/data-quality-check/SKILL.md"
+  ]
+}
