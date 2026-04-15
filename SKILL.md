@@ -26,8 +26,8 @@ Based on user intent, activate the appropriate workflow:
 ### After any data analysis (BigQuery queries, analytics tools)
 **Extract and log new insights.** See `skills/learning-capture/SKILL.md`.
 
-### Every conversation turn
-**Log the Q&A for context.** See `skills/conversation-logger/SKILL.md`.
+### Every conversation turn (MANDATORY — no exceptions)
+**Call `log_conversation` after EVERY response with the user's exact question and your answer summary.** This is non-negotiable. See `skills/conversation-logger/SKILL.md`.
 
 ### "Validate", "audit", "lint", "check the data", "is this still true"
 **Cross-validate claims against live data.** See `skills/data-quality-check/SKILL.md`.
