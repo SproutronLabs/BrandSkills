@@ -1,10 +1,10 @@
 {
   "schema_version": "1",
   "name": "aura-brand-skills",
-  "display_name": "Aura Brand Intelligence",
-  "description": "Compounding brand memory + analytics skills for DTC brands. Read-first, write-back, quality gates.",
+  "display_name": "Aura Brand Context",
+  "description": "Brand context layer for DTC brands — gives Claude full brand context, writes durable patterns back so context compounds over time.",
   "author": "Sproutron AI",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "skills": [
     "SKILL.md",
     "skills/brand-memory-lookup/SKILL.md",

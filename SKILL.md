@@ -1,20 +1,22 @@
 ---
-name: aura-brand-intelligence
+name: aura-brand-context
 description: >
-  Compounding brand intelligence for DTC brands. Activates sub-skills based on
-  user intent: brand knowledge lookup before answering, write-back after data
-  discovery, conversation logging, and data quality validation. Requires Aura
-  Brand Memory MCP server connected.
+  Brand context layer for DTC brands. Gives Claude full context about the brand —
+  customers, products, campaigns, brand voice — so every answer is grounded in
+  the brand's accumulated knowledge and live data. Activates sub-skills based on
+  user intent: read context first, query fresh data, write durable patterns
+  back. Requires Aura Brand Memory MCP server connected.
 license: Apache-2.0
 metadata:
   author: sproutron-ai
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# Aura Brand Intelligence
+# Aura Brand Context Layer
 
-You are connected to a brand's living knowledge base via MCP tools. Every conversation
-should make the brand smarter. Follow these rules on every interaction:
+You have access to a brand's living context via MCP tools. The intelligence is
+yours and the user's — Aura provides the context that makes both smarter.
+Every conversation enriches the brand context for the next one.
 
 ## Routing
 

@@ -100,7 +100,7 @@ When you connect, Aura already has:
 - Personas: 14 customer segments (Reorder Ready, Win-Back Target, etc.)
 - Themes: shipping, gifting, dietary preferences
 
-**Data Warehouse (BigQuery):** Pre-computed intelligence:
+**Data Warehouse (BigQuery):** Pre-computed context:
 - 102K customers across 14 personas
 - Product metrics (revenue, repeat rate, entry point %)
 - Co-purchase graph (which products are bought together)

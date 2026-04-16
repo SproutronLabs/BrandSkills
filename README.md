@@ -1,13 +1,15 @@
 # Aura Brand Skills
 
-Compounding brand intelligence skills for DTC brands. Every conversation makes the brand smarter.
+Brand context layer skills for DTC brands. Gives Claude the brand context it needs to answer with precision — and writes new patterns back so context compounds over time.
 
 ## What it does
 
-- **Read-first:** Always searches brand memory before answering brand questions
-- **Write-back:** Extracts quantified insights from data analysis and logs them to brand memory
-- **Conversation logging:** Builds searchable Q&A history for context
-- **Quality gates:** Lint checks, dedup, PII rejection, stale claim detection
+Aura is **not** brand intelligence — the intelligence is yours and Claude's. Aura is the **context layer** that makes both smarter:
+
+- **Read-first:** Searches brand context (products, personas, decisions, customer voice) before answering
+- **Write-back:** Extracts durable patterns from data analysis and persists them
+- **Conversation logging:** Builds searchable Q&A history for future context
+- **Quality gates:** Only durable patterns get saved (no metric snapshots, no PII, no duplicates)
 
 ## Skills
 
