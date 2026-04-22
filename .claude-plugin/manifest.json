@@ -4,10 +4,11 @@
   "display_name": "Aura Brand Context",
   "description": "Brand context layer for DTC brands — gives Claude full brand context, writes durable patterns back so context compounds over time.",
   "author": "Sproutron AI",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "skills": [
     "SKILL.md",
     "skills/brand-memory-lookup/SKILL.md",
+    "skills/campaign-opportunities/SKILL.md",
     "skills/learning-capture/SKILL.md",
     "skills/conversation-logger/SKILL.md",
     "skills/data-quality-check/SKILL.md"
