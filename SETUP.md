@@ -12,10 +12,18 @@
 
 ## Step 2: Install Skills (each team member, one-time)
 
-1. Download: [aura-brand-skills.zip](https://github.com/SproutronLabs/BrandSkills) → Code → Download ZIP
+Claude accepts one skill file at a time. Upload each of the 6 skill files individually.
+
+1. Download: [aura-brand-skills](https://github.com/SproutronLabs/BrandSkills) → Code → Download ZIP → unzip
 2. Open Claude Team → **Settings** → **Features** → **Custom Skills**
-3. Click **Upload skill** → select the zip
-4. Done — skills are active
+3. Drag and drop each skill file one by one:
+   - `SKILL.md` (root router — routes to the right sub-skill based on intent)
+   - `skills/brand-memory-lookup/SKILL.md` (read brand context before answering)
+   - `skills/campaign-opportunities/SKILL.md` (campaign recommendations + Klaviyo)
+   - `skills/learning-capture/SKILL.md` (write back durable patterns)
+   - `skills/conversation-logger/SKILL.md` (log every Q&A)
+   - `skills/data-quality-check/SKILL.md` (validate + lint brand memory)
+4. Done — all 6 skills are active
 
 ## Step 3: Try It
 
