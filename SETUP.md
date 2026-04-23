@@ -19,7 +19,7 @@ Claude accepts one skill file at a time. Upload each of the 6 skill files indivi
 3. Drag and drop each skill file one by one:
    - `SKILL.md` (root router — routes to the right sub-skill based on intent)
    - `skills/brand-memory-lookup.md` (read brand context before answering)
-   - `skills/campaign-opportunities.md` (campaign recommendations + Klaviyo)
+   - `skills/email-campaigns.md` (campaign recommendations + Klaviyo)
    - `skills/learning-capture.md` (write back durable patterns)
    - `skills/conversation-logger.md` (log every Q&A)
    - `skills/data-quality-check.md` (validate + lint brand memory)

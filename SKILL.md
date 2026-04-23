@@ -26,7 +26,7 @@ Based on user intent, activate the appropriate workflow:
 **Always search brand memory first.** See `skills/brand-memory-lookup.md`.
 
 ### "What campaigns should I run?" / "What should I work on?" / any campaign topic
-**Surface pre-analyzed opportunities.** See `skills/campaign-opportunities.md`.
+**Surface pre-analyzed opportunities.** See `skills/email-campaigns.md`.
 
 ### After any data analysis (BigQuery queries, analytics tools)
 **Extract and log new insights.** See `skills/learning-capture.md`.
