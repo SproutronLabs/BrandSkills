@@ -23,19 +23,19 @@ Every conversation enriches the brand context for the next one.
 Based on user intent, activate the appropriate workflow:
 
 ### Brand questions (products, personas, campaigns, brand voice, reviews)
-**Always search brand memory first.** See `skills/brand-memory-lookup/SKILL.md`.
+**Always search brand memory first.** See `skills/brand-memory-lookup.md`.
 
 ### "What campaigns should I run?" / "What should I work on?" / any campaign topic
-**Surface pre-analyzed opportunities.** See `skills/campaign-opportunities/SKILL.md`.
+**Surface pre-analyzed opportunities.** See `skills/campaign-opportunities.md`.
 
 ### After any data analysis (BigQuery queries, analytics tools)
-**Extract and log new insights.** See `skills/learning-capture/SKILL.md`.
+**Extract and log new insights.** See `skills/learning-capture.md`.
 
 ### Every conversation turn (MANDATORY — no exceptions)
-**Call `log_conversation` after EVERY response with the user's exact question and your answer summary.** This is non-negotiable. See `skills/conversation-logger/SKILL.md`.
+**Call `log_conversation` after EVERY response with the user's exact question and your answer summary.** This is non-negotiable. See `skills/conversation-logger.md`.
 
 ### "Validate", "audit", "lint", "check the data", "is this still true"
-**Cross-validate claims against live data.** See `skills/data-quality-check/SKILL.md`.
+**Cross-validate claims against live data.** See `skills/data-quality-check.md`.
 
 ## Data Source Routing
 

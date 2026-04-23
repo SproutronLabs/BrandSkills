@@ -7,10 +7,10 @@
   "version": "1.2.0",
   "skills": [
     "SKILL.md",
-    "skills/brand-memory-lookup/SKILL.md",
-    "skills/campaign-opportunities/SKILL.md",
-    "skills/learning-capture/SKILL.md",
-    "skills/conversation-logger/SKILL.md",
-    "skills/data-quality-check/SKILL.md"
+    "skills/brand-memory-lookup.md",
+    "skills/campaign-opportunities.md",
+    "skills/learning-capture.md",
+    "skills/conversation-logger.md",
+    "skills/data-quality-check.md"
   ]
 }
